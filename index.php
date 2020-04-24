@@ -55,7 +55,7 @@ $allResults = mysqli_fetch_assoc($resultado)
                     <label for="nombre">Nombre</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="fapellido" type="text" name="apellido" class="validate" required>
+                    <input id="apellido" type="text" name="apellido" class="validate" required>
                     <label for="apellido">Apellido</label>
                 </div>
             </div>

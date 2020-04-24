@@ -49,8 +49,8 @@ $allResults = mysqli_fetch_assoc($resultado)
                 <div class="row campo">
                     <div class="input-field col s12 campo">
                         <i class="material-icons prefix">priority_high</i>
-                        <input id="identificacion" type="text" name="identificacion" value="<?php echo $persona['identificacion']; ?>" class="validate" required>
-                        <label for="identificacion">Identificación</label>
+                        <input disabled id="identificacion" type="text" name="identificacion" style="color: white;" value="<?php echo $persona['identificacion']; ?>" class="validate" required>
+                        <label style="color: white;" for="identificacion">Identificación</label>
                     </div>
                 </div>
                 <div class="row campo">
